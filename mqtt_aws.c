@@ -7,11 +7,11 @@
 #include <mosquitto.h>
 #include <json-c/json.h>
 
-#define SUB_TOPIC       "config/JSH010-RVD96325"
+#define SUB_TOPIC       "config/JSHxxxxxxxx"
 #define PUB_TOPIC       "request_sysconfig"
-#define PUB_MESSAGE     "{\"did\": \"JSH010-RVD96325\"}"
-#define HOST            "a25rymalyfdr5r-ats.iot.us-east-1.amazonaws.com"
-#define PORT             8883
+#define PUB_MESSAGE     "{\"did\": \"JSHxxxxxxx\"}"
+#define HOST            "axxxxxxxxxxxxxxxxxx.amazonaws.com"
+#define PORT             xxx
 
 #define MOSQ_CA_FILE    "./certs/ca.pem"
 #define MOSQ_CERT_FILE  "./certs/client.crt"
